@@ -1,0 +1,89 @@
+body{
+  background-color: black;
+}
+
+#container {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+
+h1 {
+    font-family: -apple-system;
+    color: purple;
+    font-size: 2.5rem;
+}
+
+#MeImg {
+    float: left;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+img {
+    width: 100px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+h2 {
+    font-family: verdana;
+    font-style: italic;
+    color: red;
+}
+
+p {
+    font-family: sans-serif;
+    color: indigo;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: red;
+    font-family: monospace;
+}
+
+ol, ul, dl {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+}
+
+li {
+    color: yellow;
+}
+
+img {
+    width: 100px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+h4 {
+    font-family: fantasy;
+    font-style: italic;
+    color: red;
+}
+
+p {
+    font-family: sans-serif;
+    color: indigo;
+}
+
+a {
+    color: rgb(0, 123, 255);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+p {
+    font-family: sans-serif;
+    color: indigo;
+}
