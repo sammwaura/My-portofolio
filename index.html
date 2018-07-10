@@ -2,47 +2,63 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="css/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="Css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="Css/styles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/animate.css">
-    <title>My Portofolio</title>
   </head>
     <body>
-      <div class="container">
-          <h1>Samuel Mwaura</h1>
-            <p><img src="/home/samuel/Pictures/IMG_20180131_184803_392.jpg "</p>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Android Developer</a>    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+           <ul class="nav navbar-nav">
+             <li><a href="#">About</a></li>
+           </ul>
+        </div>  
+        <div id="my-carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+            <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item-active">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>About Mwaura</h1>
+                    <p>I am young Android Developer who is ready for the job Market</p>
+                </div>
+              </div>
+            </div>
+              <div class="item">
+                <div class="container">
+                  <div class="carousel-caption">
+                  <h2>Journey</h2>
+                    <p>My journey as a developer started at Moringa School where ive been advancing from module to another successfully</p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                  <div class="carousel-caption">
+                  <h3>Projects</h3>
+                    <p>At my learning period at Moringa i have been able to make few mobile applcations and some web applications</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#my-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>                 
       </div>
-    </div>
-        <h2>About Me</h2>
-      <div class="column">
-    <div class="col-md-6">
-      <p> Mwaura Samuel is a young East Afican man who has started the journey to be coming a worldclass developer.
-        Joined Moringa Schoool of Software Developing which is based at NgongRD.</p>
-          <h3>My Skills& Hobbies</h3>
-          <strong>So far i have some coding skills of which im polishing up then wil state them later:)</strong>
-          <ol>
-          <li>Football is my favourite hobby</li>
-        <p><img src="/home/samuel/Downloads/alex-462576.jpg"</p>
-        <p><img src="/home/samuel/Downloads/alex-456982.jpg"</p>
-        <li>Travelling</li>
-          <p><img src="/home/samuel/Downloads/prometey-sanchez-noskov-340992.jpg"</p>
-        </div>
-      </div>
-        <h4>Projects</h4>
-          <p>During this 1st week at Moringa I have been able to do some various projects which are as follows:</p>
-    <ul>
-    <li><a href=https://github.com/sammwaura/My-1st-webpage>
-      1st webpage in Moringa.
-    </a></li>
-      <p>The language used was HTML.</p>
-      <li><a href=https://github.com/sammwaura/Branching-test>
-        Branching test while going through my course work.
-      </a></li>
-        <p>HTML language used.</p>
-        <li><a href=https://github.com/sammwaura/media-queries>
-          About media queries this is a project my pair and I were able to do.
-        </a></li>
-          <p>Its also a HTML language.</p>
-      </ul>
+    </nav>
   </body>
 </html>
