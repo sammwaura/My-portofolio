@@ -1,16 +1,30 @@
-# README #
 
-This repository is a brief information about my first week at Moringa.
+# Portfolio
 
-###  Projects done so far ###
+### By **Mwaura Samuel**, 
+#### Published date *10/07/18**
 
-*https://github.com/sammwaura/My-1st-webpage
-*https://github.com/sammwaura/Branching-test
-*https://github.com/sammwaura/media-queries
 
-####  HTML language used  ####
+## Description
 
-####  Also i listed some of my favourite hobbies which are  ####
+My Personal Blog that shows my projects and hobbies.
 
-*Playing Soccer
-*Travelling
+
+## Technologies Used
+- HTML ( **ver 4** )
+- CSS (**ver 3**)
+- Bootstrap
+- JavaScript
+
+
+### Acknowledgements
+
+- Moringa School
+- Stack Overflow
+- Google
+
+
+
+#### License under [***MIT***](https://github.com/sammwauraPortfolio/blob/master/LICENSE)
+
+Copyright (C) 2018 ~ Mesh
