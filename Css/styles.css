@@ -12,7 +12,7 @@ body{
   /* background-color: dodgerblue; */
   opacity: 0.6;
   border-radius:20px;
-  font-weight: 20px;
+  font-weight: bolder;
   text-align: center;
   font-size: 25px;
   color:black;
@@ -35,11 +35,40 @@ body{
   font-size: 50px;
   font-family: monospace;
   margin: 7%;
-  color: navy;
+  color:red;
 }
 
 .ul{
 list-style-type: none;
 float: left;
+}
+
+.heading{
+  padding: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  /* background-color: black; */
+  opacity: 0.87;
+  border-radius: 20px;
+  color: black;
+  margin-top: 2%;
+
+}
+
+.container{
+  text-align: center;
+  margin-top: -5%;
+}
+
+.container-fluid2{
+  /* float: right; */
+  margin-top: 6%;
+  text-align: center;
+  margin-bottom: 2%;
+  /* text-align: center; */
+  border-radius: 20px;
+  color: black;
+  opacity: 0.9;
+  font-size: 22px;
 }
 
