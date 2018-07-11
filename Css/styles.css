@@ -1,5 +1,27 @@
 body{
-  background-color: whitesmoke;
+  background-image: url('../images/bricks.jpg');
+  /* background-color: whitesmoke; */
+  background-attachment: fixed;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  padding-bottom: 2%;
+  color:black;
+}
+
+.container-fluid{
+  /* background-color: dodgerblue; */
+  opacity: 0.6;
+  border-radius:20px;
+  font-weight: 20px;
+  text-align: center;
+  font-size: 25px;
+  color:black;
+}
+
+.img{
+  width: 200px;
+  height: 150px;
+  float: right;
 }
 
 .nav{
@@ -7,3 +29,17 @@ body{
      margin-top: 0.5%; 
     font-size: 12px;
 }
+
+.h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+  margin: 7%;
+  color: navy;
+}
+
+.ul{
+list-style-type: none;
+float: left;
+}
+
