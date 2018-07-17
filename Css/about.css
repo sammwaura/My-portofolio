@@ -1,0 +1,37 @@
+body{
+    background-image: url('../images/bricks.jpg');
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    margin-bottom: 2%;
+}
+
+.container{
+    padding: 5%;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    margin-top: 1%;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.mwaura{
+    padding-top: 2%;
+    text-align: left;
+}
+
+.skills{
+    text-align: left;
+    margin-bottom: 20%;
+    margin-top: 10%;
+}
+
+h2, h3{
+    text-decoration: underline;
+}
+
+.journey{
+    text-align: right;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
