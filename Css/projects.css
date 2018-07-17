@@ -1,8 +1,8 @@
 body{
-    background-image: url('../images/bricks.jpg');     font-family: cursive;
+    background-image: url('../images/bricks.jpg'); 
+    font-family: cursive;
     background-attachment: fixed;
     margin-bottom: 2%;
-
 }
 
 .container2{
@@ -31,7 +31,7 @@ img{
     border-radius: 2px;
 }
 
-.container{
+.container, .container3, .container4, .container5{
     padding: 2%;
     background-color: black;
     margin-top: 6%;
