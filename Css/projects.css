@@ -1,5 +1,5 @@
 body{
-    background-image: url('../images/bricks.jpg'); 
+    background-image: url('../images/brick.jpg'); 
     font-family: cursive;
     background-attachment: fixed;
     margin-bottom: 2%;
@@ -18,27 +18,27 @@ body{
     font-family: 'Cabin Sketch', cursive;
 }
 
-.detail{
+/* .detail{
     float: right;
     margin-right: 20%;
     margin-top: 2%;
     padding: 1%;
-}
+} */
 
-img{
+/* img{
     width: 50%;
     height: 50%;
     border-radius: 2px;
-}
+} */
 
-.container, .container3, .container4, .container5{
+.container{
     padding: 2%;
     background-color: black;
     margin-top: 6%;
     margin-bottom: 2%;
     border-radius: 20px;
     color: white;
-    opacity: 0.9;
+    opacity: 0.7;
     font-size: 22px;
 }
 
