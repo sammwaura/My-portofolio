@@ -9,8 +9,8 @@ body{
 }
 
 .container{
-  /*background-color:rgba(255, 255, 255, 0.8);*/
-  opacity: 0.3;
+  background-color:rgba(255, 255, 255, 0.8);
+  opacity: 0.7;
   padding: 5%;
 }
 
@@ -33,7 +33,7 @@ body{
   text-align: center;
   font-size: 50px;
   font-family: monospace;
-  margin: 7%; ,m
+  margin: 7%; 
   color:red;
   text-decoration: underline;
 }
