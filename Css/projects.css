@@ -27,14 +27,14 @@ body{
 
  img{
     width: 50%;
-    height: 30%;
+    height: 20%;
     border-radius: 2px;
 } 
 
 .container{
     padding: 2%;
     text-align: center;
-    /* background-color: black; */
+    background-color: black; 
     margin-top: 6%;
     margin-bottom: 2%;
     border-radius: 20px;
