@@ -19,7 +19,7 @@ body{
 }
 
  .detail{
-    float: right;
+    /* float: right; */
     margin-right: 20%;
     margin-top: 2%;
     padding: 1%;
@@ -27,14 +27,14 @@ body{
 
  img{
     width: 50%;
-    height: 50%;
+    height: 30%;
     border-radius: 2px;
 } 
 
 .container{
     padding: 2%;
     text-align: center;
-    background-color: black;
+    /* background-color: black; */
     margin-top: 6%;
     margin-bottom: 2%;
     border-radius: 20px;
